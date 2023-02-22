@@ -20,7 +20,6 @@ body{
 .main-main p{
     font-family: 'Roboto', sans-serif;
     font-size: max(19px, 2vh) ;
-    background-color: rgba(157, 156, 156, 0.1);
     color: black;
     font-weight: bold;
     
