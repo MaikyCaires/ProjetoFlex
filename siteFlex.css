@@ -1,0 +1,203 @@
+/* fontes usada*/
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/* fontes aplicada */
+.logo h1{
+    font-family: 'Tilt Prism', cursive;
+}
+.main-main p{
+    font-family: 'Roboto', sans-serif;
+    font-size: max(19px, 2vh) ;
+    background-color: rgba(157, 156, 156, 0.1);
+    color: black;
+    font-weight: bold;
+    
+    
+    
+}
+span{
+    color: red;
+    font-weight: normal;
+}
+/* header*/
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 40px;
+}
+
+/* promoção */
+.baner{
+    margin: 40px 0 40px 0;
+    display: flex;
+}
+.baner img{
+    width: 100%;
+    max-height: 600px;
+    flex: 1 1 ;
+}
+ /* formulario */
+.formulario{
+    text-align: center;
+    
+}
+.formulario form{
+    margin: 40px 0 20px;
+    
+}
+.formulario form input{
+    padding: 10px;
+    width: 350px;
+    
+}
+.formulario form input[type="submit"]{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    width: 350px;
+}
+.formulario h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: max(4vh, 30px);
+}
+.produtos{
+    text-align: center;
+}
+.lista{
+    border-bottom: solid 2px black;
+    width: 50px;
+    margin: 20px auto;
+}
+.titulo-qualificacao{
+    text-align: center;
+    margin: 30px 0 ;
+    
+}
+.titulo-qualificacao h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: max(3vh, 30px);
+}
+
+
+/*produtos*/
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+.produtos img{
+    width: 100%;
+    max-height: 700px;
+    display: block;
+}
+.itens-produtos{
+    flex: 1 1 200px;
+}
+.itens-produtos img{
+    height: 600px;
+    
+}
+.propaganda{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.propaganda img{
+    width: 100%;
+}
+.intens-propaganda{
+    flex: 1 1 250px; 
+}
+
+/*ajuda consumidor*/
+.opcao{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 50px  auto;
+    flex-wrap: wrap;
+}
+.opcao p{
+    font-size: min(3vh, 19px);
+}
+
+/*footer*/
+.main-footer{
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.main-footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: max(19px, 2vh) ;
+} 
+
+@media (min-width:300px){
+    .itens-produtos{
+    flex: 1 1 150px;
+}
+.itens-produtos img{
+    width: 100%;
+    max-height: 350px;
+    display: block;}
+.main-main{
+    padding: 5px;
+}
+}
+
+
+@media (min-width:800px){
+    .opcao{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: 50px  auto;
+        flex-wrap: nowrap;
+    }
+    .formulario form input{
+        padding: 15px;
+        width: 350px;
+    }
+
+    .formulario form input[type="submit"]{
+        color: white;
+        background-color: black;
+        cursor: pointer;
+        width: 150px;
+    
+}
+}
